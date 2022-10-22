@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>measure bpm</title>
+    <style>
+        #disp-bpm {
+            /* height: 50vh; */
+            width: 100%;
+            font-size: 5em;
+            /* text-align: center; */
+            /* top: 50%; */
+            /* margin: auto; */
+            position: fixed;
+            user-select: none;
+        }
+
+        #tap {
+            top: 50%;
+            left: 50%;
+            position: fixed;
+            font-size: 3em;
+            transform: translate(-50%, -50%);
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="disp-bpm"></div>
+    <div id="tap">TAP HERE</div>
+    <script src="https://unpkg.com/simple-statistics@7.7.6/dist/simple-statistics.min.js"></script>
+    <script src="./anime.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
